@@ -1,0 +1,59 @@
+Test Case: Form Submission without Email Field
+Test Case ID: TC001
+
+Title: Validate error messages when the Email field is not populated on the "UCITS Whitepaper" form.
+
+Description: This test case verifies the error messages displayed when the user attempts to submit the "UCITS Whitepaper" form without filling in the required "Email" field.
+
+Preconditions:
+User has access to a web browser.
+The Kurtosys website is available.
+
+Test Steps:
+Navigate to Kurtosys Website:
+Open the web browser.
+Go to Kurtosys.
+Access White Papers & eBooks:
+From the main menu, click on "INSIGHTS".
+From the dropdown menu, select "White Papers & eBooks".
+
+Verify Page Title:
+Ensure the page title reads "White Papers".
+Select "UCITS Whitepaper":
+
+Click on the "UCITS Whitepaper" link.
+Fill in Form Fields:
+
+Enter valid data in the following fields:
+First Name: Gloria
+Last Name: Moyo
+Company: Kurtosys
+Industry: Fintech
+Leave the "Email" field empty.
+
+Click the "Send me a copy" button.
+
+Expected Results:
+The form should not submit successfully.
+Error messages should be displayed for the "Email" field indicating it is required.
+
+Validation:
+
+Verify the error messages displayed for the "Email" field are as follows:
+"This field is required."
+"Please enter a valid email address."
+
+Test Case Execution
+Executed By: Gloria
+
+Execution Date: 03/07/2024
+
+Status: Fail
+
+Comments:
+
+The test case failed because the email field is a requirements therefore gives an error, for it to pass the email field should be filled
+
+Attached are the screenshots of the error messages when the form is submitted without the "Email" field filled in.
+
+
